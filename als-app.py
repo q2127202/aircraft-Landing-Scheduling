@@ -46,9 +46,9 @@ def  main():
         from PIL import Image
         image2 = Image.open('mode3.png')
         st.image(image2,use_column_width=True)    
-        image = Image.open('mode1.PNG')
+        image = Image.open('mode1.png')
         st.image(image,use_column_width=True)
-        image1 = Image.open('mode2.PNG')
+        image1 = Image.open('mode2.png')
         st.image(image1,use_column_width=True)
         
             
