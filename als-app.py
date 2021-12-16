@@ -44,7 +44,7 @@ def  main():
         #st.write('δij = 1 if plane i lands before plane j (i=1,...,P; j=1,...,P; i≠j) = 0 otherwise')
        
         from PIL import Image
-        image2 = Image.open('mode3.PNG')
+        image2 = Image.open('mode3.png')
         st.image(image2,use_column_width=True)    
         image = Image.open('mode1.PNG')
         st.image(image,use_column_width=True)
