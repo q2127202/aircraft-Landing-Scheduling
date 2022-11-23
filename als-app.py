@@ -5,7 +5,9 @@ import pandas as pd
 import numpy as np
 from gurobipy import *
 import os
+from scop import *
 
+m = Model("sfift")
 
 
 # In[ ]:
