@@ -15,7 +15,7 @@ import os
 def  main():
     """a new app with Streamlit"""
     
-    menu = ["Home","データ","モデル","About"]
+    menu = ["app","データ","モデル","About"]
     choice = st.sidebar.selectbox("Menu",menu)
     
     if choice == "データ":
